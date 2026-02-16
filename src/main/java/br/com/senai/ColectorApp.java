@@ -8,7 +8,7 @@ public class ColectorApp {
     public static void main(String[] args) {
         String broker = "tcp://broker.hivemq.com:1883";
         String clientId = "JavaClient_Aluno_" + System.currentTimeMillis(); 
-        String topic = "senai/data/temperature";
+        String topic = "senai/dados/temperatura";
 
         try {
             MqttClient client = new MqttClient(broker, clientId);
