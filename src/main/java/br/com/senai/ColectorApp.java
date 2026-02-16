@@ -7,8 +7,8 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 public class ColectorApp {
     public static void main(String[] args) {
         String broker = "tcp://broker.hivemq.com:1883";
-        String clientId = "JavaClient_Aluno_" + System.currentTimeMillis(); 
-        String topic = "senai/dados/temperatura";
+        String clientId = "JavaClient_Debeterco" + System.currentTimeMillis(); 
+        String topic = "senai/debeterco/temperatura";
 
         try {
             MqttClient client = new MqttClient(broker, clientId);
