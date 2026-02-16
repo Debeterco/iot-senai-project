@@ -1,10 +1,10 @@
-package br.com.senai.entities;
+package br.com.senai;
 
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 
-public class AppColetor {
+public class ColectorApp {
     public static void main(String[] args) {
         String broker = "tcp://broker.hivemq.com:1883";
         String clientId = "JavaClient_Aluno_" + System.currentTimeMillis(); 
