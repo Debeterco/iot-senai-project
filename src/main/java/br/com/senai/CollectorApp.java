@@ -4,7 +4,7 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 
-public class ColectorApp {
+public class CollectorApp {
     public static void main(String[] args) {
         // 1. Change to ssl:// and use the URL from your image
         String broker = "ssl://e0722a79b31148c9b57155e48211f476.s1.eu.hivemq.cloud:8883";
